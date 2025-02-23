@@ -22,9 +22,14 @@ function App() {
 
       <main style={{ marginTop: "3rem", paddingTop: "1rem", height: "100vh" }}>
         <p className="text-7xl text-amber-400">Hello World</p>
-        <span class="relative inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-pink-500">
-    <span class="relative text-white dark:text-gray-950">annoyed</span>
-  </span>
+        <span className="flex w-full items-center justify-center">
+          <span className="relative inline-block">
+            <span className="absolute -inset-x-10 -inset-y-3 block -skew-y-10 bg-linear-180 from-amber-300 to-amber-700"></span>
+            <span className="relative text-gray-700 hover:text-purple-500">
+              testing
+            </span>
+          </span>
+        </span>
       </main>
     </>
   );
