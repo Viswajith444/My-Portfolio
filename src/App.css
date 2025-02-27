@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@layer components{
+    .card-testing{
+        :is(&>p~p) {
+            background-color: var(--color-blue-400) /* oklch(0.707 0.165 254.624) */;
+        }
+    }
+}
